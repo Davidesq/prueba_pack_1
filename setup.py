@@ -8,10 +8,10 @@ setup(
     author='david',
     author_email='devdavesq@gmail.com',
     license='unlicense',
-    packages=['test_pkg'],
-#     packages=setuptools.find_packages(),
+#     packages=['test_pkg'],
+    packages=setuptools.find_packages(),
     install_requires=['opencv-python', 'argparse', 'playsound', 'prettytable'],
     python_requires='>=3.6',
-    package_dir={'test_pkg':'src'},
+#     package_dir={'test_pkg':'src'},
     scripts=['test_pkg/texto.py', 'test_pkg/imagenes.py', 'test_pkg/audio.py']
 )
