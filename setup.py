@@ -9,5 +9,6 @@ setup(
     author_email='devdavesq@gmail.com',
     license='unlicense',
     packages=['test_pkg'],
+    install_requires=['cv2', 'argparse', 'time', 'os'],
     zip_safe=False
 )
