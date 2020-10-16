@@ -9,6 +9,6 @@ setup(
     author_email='devdavesq@gmail.com',
     license='unlicense',
     packages=['test_pkg'],
-    install_requires=['opencv-python', 'argparse', 'time', 'os'],
+    install_requires=['opencv-python', 'argparse'],
     zip_safe=False
 )
