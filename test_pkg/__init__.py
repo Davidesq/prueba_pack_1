@@ -1,2 +1,2 @@
-from .imagenes import print_imagen
-import .functions
+import functions
+import imagenes
