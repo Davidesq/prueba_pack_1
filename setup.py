@@ -12,5 +12,5 @@ setup(
     install_requires=['opencv-python', 'argparse'],
     python_requires='>=3.6',
     package_dir={'test_pkg':'test_pkg'},
-    scripts=['test_pkg/texto/Texto', 'test_pkg/imagenes/Imagenes', 'test_pkg/audio/Audio']
+    scripts=['test_pkg/test_pkg/texto/Texto', 'test_pkg/test_pkg/imagenes/Imagenes', 'test_pkg/test_pkg/audio/Audio']
 )
