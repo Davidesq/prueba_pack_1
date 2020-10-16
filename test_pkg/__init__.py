@@ -1,2 +1,2 @@
-import functions
-import imagenes
+import .functions
+import .imagenes
