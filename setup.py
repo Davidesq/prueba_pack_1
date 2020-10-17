@@ -9,7 +9,7 @@ setup(
     author_email='devdavesq@gmail.com',
     license='unlicense',
     # packages=['test_pkg'],
-    packages=setuptools.findpackages(),
+    packages=['test_pkg'],
     install_requires=['opencv-python', 'argparse', 'playsound', 'prettytable'],
     python_requires='>=3.6',
     package_dir={'test_pkg':'test_pkg'},
