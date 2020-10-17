@@ -40,6 +40,9 @@ def reproducir_audio(Archivo, Loops):
         print('FIN...')
 
 
+def play_audio(): #funcion que envuelve el metodo principal
+    # Se llama la función con los argumentos pasados desde el parser
+    reproducir_audio(args.Archivo, args.Loops)
 
-# Se llama la función con los argumentos pasados desde el parser
-reproducir_audio(args.Archivo, args.Loops)
+if __name__=='__main__': #condicion para que se ejecute la funcion predeterminadamente
+    play_audio()
