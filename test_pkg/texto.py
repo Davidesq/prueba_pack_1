@@ -87,6 +87,9 @@ def print_Tabla(archivo):
         print('-----------------------------------------------------------------------')
         print('FIN...')
 
+def mostrar_tabla(): #funcion que envuelve el metodo principal
+    # Se llama la función con los argumentos pasados desde el parser
+    print_Tabla(args.archivo)
 
-# Se llama la función con los argumentos pasados desde el parser
-print_Tabla(args.archivo)
+if __name__=='__main__': #condicion para que se ejecute la funcion predeterminadamente
+    mostrar_tabla()

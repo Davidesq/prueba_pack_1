@@ -60,5 +60,9 @@ def print_imagen(Ruta, tipo):
         print('-----------------------------------------------------------------------')
         print('FIN...')
 
-# Se llama la función con los argumentos pasados desde el parser
-print_imagen(args.Ruta, args.Escala)
+def mostrar_imagen(): #funcion que envuelve el metodo principal
+    # Se llama la función con los argumentos pasados desde el parser
+    print_imagen(args.Ruta, args.Escala)
+
+if __name__=='__main__': #condicion para que se ejecute la funcion predeterminadamente
+    mostrar_imagen()
