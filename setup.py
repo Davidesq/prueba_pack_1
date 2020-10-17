@@ -12,6 +12,6 @@ setup(
     packages=setuptools.findpackages(),
     install_requires=['opencv-python', 'argparse', 'playsound', 'prettytable'],
     python_requires='>=3.6',
-    package_dir={'test_pkg':'test_pkg'}
+    package_dir={'test_pkg':'test_pkg'},
     scripts=['bin/bin_texto.py', 'bin/bin_imagenes.py', 'bin/bin_audio.py']
 )
