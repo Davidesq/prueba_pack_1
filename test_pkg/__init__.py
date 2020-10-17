@@ -1,1 +1,1 @@
-import .imagenes
+import imagenes
