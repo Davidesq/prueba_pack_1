@@ -8,10 +8,9 @@ setup(
     author='david',
     author_email='devdavesq@gmail.com',
     license='unlicense',
-    # packages=['test_pkg'],
     packages=['test_pkg'],
     install_requires=['opencv-python', 'argparse', 'playsound', 'prettytable'],
     python_requires='>=3.6',
     package_dir={'test_pkg':'test_pkg'},
-    scripts=['bin/bin_texto.py', 'bin/bin_imagenes.py', 'bin/play_audio']
+    scripts=['bin/bin_texto', 'bin/bin_imagenes', 'bin/play_audio']
 )
